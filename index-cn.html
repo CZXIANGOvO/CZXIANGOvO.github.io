@@ -1,0 +1,436 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>曹智翔 | 个人主页</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper default-version">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+        <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+        <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index-cn.html"><img src="images/logo.png" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                            
+                            <li class="current"><a href="#home">首页</a></li>
+                            <li><a href="#about">关于我</a></li>
+                            <li><a href="#resume">教育经历</a></li>
+                            <li><a href="#services">论文发表</a></li>
+                            <li><a href="#awards">获奖经历</a></li>
+                            <li><a href="#contact">联系方式</a></li>
+
+                         </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->                        
+            </div>
+            <!--Nav Outer End-->            
+        </div>
+    </div>
+ 	
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="lang-switcher">
+                        <span class="lang-icon"><i class="fa fa-globe"></i></span>
+                        <a href="index.html" class="lang-btn">EN</a>
+                        <a href="index-cn.html" class="lang-btn active">中文</a>
+                    </div>
+                    <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                        <div class="image"><img src="images/resource/user.jpg" alt=""></div>
+                        <div class="author">
+                            <h3>曹智翔</h3>
+                            <div class="designation">
+                                你好，我是
+                                <div class="typing-title">
+                                    <p>一名<strong>电子信息硕士研究生。</strong></p>
+                                    <p>一名<strong>深度学习测试研究者。</strong></p>
+                                    <p>一名<strong>具身感知系统探索者。</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <a href="images/简历.pdf" class="theme-btn btn-style-one">下载简历</a>
+                        </div>
+                        <ul class="social-icon-two">
+                            <li><a href="mailto:zxcao@stu.xjtu.edu.cn"><span class="fa fa-envelope"></span></a></li>
+                            <li><a href="tel:+8619952115819"><span class="fa fa-phone"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                                <li><a href="#about"><i class="flaticon-social"></i>关于我</a></li>
+                                <li><a href="#resume"><i class="flaticon-curriculum"></i>教育经历</a></li>
+                                <li><a href="#services"><i class="flaticon-layers-1"></i>论文发表</a></li>
+                                <li><a href="#awards"><i class="flaticon-tools"></i>获奖经历</a></li>
+                                <li><a href="#contact"><i class="flaticon-send-mail"></i>联系方式</a></li>
+                            </ul>
+                        </header>
+
+                        <!-- card item -->
+                        <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="images/resource/user.jpg" alt=""></div>
+                                <div class="author">
+                                    <h3>曹智翔</h3>
+                                    <div class="designation">
+                                        你好，我是
+                                        <div class="typing-title">
+                                            <p>一名<strong>电子信息硕士研究生。</strong></p>
+                                            <p>一名<strong>深度学习测试研究者。</strong></p>
+                                            <p>一名<strong>具身感知系统探索者。</strong></p>
+                                        </div>
+                                        <span class="typed-title"></span>
+                                    </div>
+                                </div>
+                                <div class="text">我目前正在西安交通大学攻读电子信息硕士，研究方向涵盖深度学习框架测试、AI for Science、点云去噪与多模态触觉感知。</div>
+                                <div class="link-btn">
+                                    <a href="images/简历.pdf" class="theme-btn btn-style-one">下载简历</a>
+                                    <a href="#contact" class="theme-btn btn-style-two">联系我</a>
+                                </div>
+                                <ul class="social-icon-two">
+                                    <li><a href="mailto:zxcao@stu.xjtu.edu.cn"><span class="fa fa-envelope"></span></a></li>
+                                    <li><a href="tel:+8619952115819"><span class="fa fa-phone"></span></a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-about card-item" id="about" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">关于我</h4>
+                                <div class="text">我本科毕业于南通大学计算机科学与技术专业，目前正在西安交通大学攻读电子信息硕士。近期主要围绕深度学习系统测试、AI for Science 模型评测、复杂天气下点云去噪以及多模态触觉感知开展研究。</div>
+                                <div class="info-list">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>姓名：</strong>  曹智翔</li>
+                                                <li><strong>电话：</strong>  (+86) 19952115819</li>
+                                                <li><strong>邮箱：</strong>  zxcao@stu.xjtu.edu.cn</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>当前阶段：</strong>  电子信息硕士</li>
+                                                <li><strong>院校：</strong>  西安交通大学</li>
+                                                <li><strong>籍贯：</strong>  中国江苏徐州</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="resume" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">教育经历</h4>
+                                <div class="row clearfix">
+                                    <div class="timeline-column col-md-12 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-book"></span></div></div></div> <h2>教育经历</h2></div>
+                                            
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>西安交通大学</h4>
+                                                    <div class="date"><span>2025.09 - 至今</span></div>
+                                                    <div class="date"><span>电子信息 硕士</span></div>
+                                                    <div class="text">电子科学与工程学院。</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>南通大学</h4>
+                                                    <div class="date"><span>2021.09 - 2025.06</span></div>
+                                                    <div class="date"><span>计算机科学与技术 本科</span></div>
+                                                    <div class="text">张謇学院（工科试验班），成绩排名 1/16。</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>澳门大学</h4>
+                                                    <div class="date"><span>2022.01</span></div>
+                                                    <div class="date"><span>访学项目</span></div>
+                                                    <div class="text">人工智能与大数据主题短期学习。</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>学生工作与荣誉</h4>
+                                                    <div class="date"><span>本科期间</span></div>
+                                                    <div class="text">曾任南通大学张謇学院学生会副主席，获评南通市优秀学生干部。</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="services" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">论文发表</h4>
+                                <div class="row clearfix">
+                                    <div class="timeline-column col-md-12 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-layers-1"></span></div></div></div> <h2>论文发表</h2></div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>DevMuT: Testing Deep Learning Framework Via Developer Expertise-Based Mutation</h4>
+                                                    <div class="date"><span>ASE 2024</span></div>
+                                                    <div class="date"><span>CCF-A 会议，学生二作</span></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Improving Deep Learning Framework Testing with Model-Level Metamorphic Testing</h4>
+                                                    <div class="date"><span>ISSTA 2025</span></div>
+                                                    <div class="date"><span>CCF-A 会议，学生二作</span></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Evaluating Deep Learning Models in AI for Science via Mutation Testing</h4>
+                                                    <div class="date"><span>投至 ASOC</span></div>
+                                                    <div class="date"><span>TOP 期刊，IF 6.6，一作</span></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>SP-Mixer: Structural-Prior-Guided Triple Mixing for Point Cloud Denoising under Adverse Weather</h4>
+                                                    <div class="date"><span>投至 IEEE TIP</span></div>
+                                                    <div class="date"><span>TOP 期刊，IF 13.7，一作</span></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Multimodal Tactile Sensing and Fusion: A Survey of Vision, Language, and Contact-Driven Paradigms</h4>
+                                                    <div class="date"><span>投至 IEEE TPAMI</span></div>
+                                                    <div class="date"><span>TOP 期刊，IF 18.6，一作</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="awards" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">获奖经历</h4>
+                                <div class="row clearfix">
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-case"></span></div></div></div> <h2>主要奖项</h2></div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第15届全国大学生先进成图大赛团队国家一等奖</h4>
+                                                    <div class="date"><span>2022.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第15届全国大学生先进成图大赛个人国家一等奖</h4>
+                                                    <div class="date"><span>2022.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>2023年睿抗机器人开发者大赛国家一等奖</h4>
+                                                    <div class="date"><span>2023.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第14届中国大学生服务外包创新创业大赛国家二等奖</h4>
+                                                    <div class="date"><span>2023.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第16届中国大学生计算机设计大赛国家二等奖</h4>
+                                                    <div class="date"><span>2023.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第17届中国大学生计算机设计大赛国家二等奖</h4>
+                                                    <div class="date"><span>2024.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第19届全国大学生智能汽车竞赛国家二等奖</h4>
+                                                    <div class="date"><span>2024.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第25届中国机器人及人工智能大赛国家三等奖</h4>
+                                                    <div class="date"><span>2023.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第16届全国大学生先进成图大赛国家三等奖</h4>
+                                                    <div class="date"><span>2023.08</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>2024年江苏省大学生计算机设计大赛省级特等奖</h4>
+                                                    <div class="date"><span>2024.05</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>第9届江苏省互联网+大学生创新创业大赛省级一等奖</h4>
+                                                    <div class="date"><span>2023.08</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-book"></span></div></div></div> <h2>荣誉与成果</h2></div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>校级荣誉</h4>
+                                                    <div class="date"><span>2022 - 2023</span></div>
+                                                    <div class="text">校三好学生标兵、校优秀干部、两次校一等奖学金、两次社会奖学金。</div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>论文成果</h4>
+                                                    <div class="text">3 篇 CCF-A 论文、1 篇 CCF-C 论文录用。</div>
+                                                </div>
+                                            </div>
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>知识产权</h4>
+                                                    <div class="text">4 项发明专利进入实审，6 项软件著作权已授权。</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-contact card-item" id="contact" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h3 class="title">联系方式</h3>
+                                <h4>欢迎联系</h4>
+                                <div class="row clearfix">
+                                    <div class="col-md-12">
+                                        <ul class="list-style-two">
+                                            <li><span class="icon flaticon-smartphone"></span>(+86) 19952115819</li>
+                                            <li><span class="icon flaticon-note-1"></span>zxcao@stu.xjtu.edu.cn</li>
+                                            <li><span class="icon flaticon-signs"></span>西安交通大学，中国西安</li>
+                                            <li><span class="icon flaticon-social"></span>籍贯：江苏徐州，中国</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="text">如果你希望交流科研合作、学术讨论，或探讨与可信人工智能和感知系统相关的工程项目，欢迎通过邮件与我联系。</div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            
+    </div>
+
+</div>
+<!--End pagewrapper-->
+
+
+<script src="js/jquery.js"></script> 
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/mousemoveparallax.js"></script>
+<script src="js/pagenav.js"></script>
+<script src="js/jquery-type.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/particle-alone.js"></script>
+<script src="js/script.js"></script>
+
+<!--Google Map APi Key-->
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
